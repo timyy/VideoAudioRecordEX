@@ -24,7 +24,11 @@ SOUND_DEV_ID = 5  # 监听回放的设备ID
 ## 参考
 
 [pyHook](https://github.com/Zweo/Video_Audio_Record)
+
 [keyboard]
+
 [python开发的录音机](https://blog.csdn.net/littlezhuhui/article/details/101025305)
+
 (https://zhuanlan.zhihu.com/p/38136322) 多进程版，目前是多线程的，只用一个CPU，还是慢。可以用多进程，启多个cpu分别录音和录屏，录屏压成文件也采用单独的进程，并采用队列方式，应该能加速。
+
 [mss]
